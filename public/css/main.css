@@ -1,0 +1,236 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html {
+    height: 100vh;
+}
+
+body{
+    min-height: 100%;
+    min-width: auto;
+    background-color: #FFF;
+    font-family: 'Arial';
+}
+.ui-datepicker-calendar {
+   display: none;
+}
+#chartDiv label{
+    color: rgb(0,0,45);
+}
+#cardImg{
+    height: 180px;
+}
+#titleName{
+    text-align: center;
+    margin-top: 15px; 
+    color: white;
+}
+
+/*Header and first row*/
+
+#brand{
+    vertical-align: middle;
+    color:white;
+}
+
+#row1 {
+    background-color: rgb(0,0,45);
+}
+
+#nav{
+    min-height: 10vh;
+}
+
+#prvi{
+    min-height: 10vh;
+}
+
+#row1 {
+    min-height: 10vh;
+}
+
+/*Second row content and users/teams profiles*/
+
+#drugi {
+    min-height: 90vh;
+}
+
+#row2{
+    min-height: 90vh;
+}
+
+#side {
+    background-color: #F8F9FA;
+    padding-left: 1rem;
+    border-right: 1px solid #DFE0E1;
+}
+
+
+#logOutBtn {
+    color: #FFF;
+    margin: 0 0 0 auto;
+}
+
+.sideNav {
+    width: 100%;
+    margin: 3em 0 0 0;
+}
+
+.menuLink{
+    display: block;
+    color: #333333;
+    width: 100%;
+    padding: 1rem 0.5rem 1.5rem 0.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menuLink:hover {
+    color: rgb(0,0,45);
+    text-decoration: none;
+    background-color: #EEEEEE;
+}
+.menuLink:hover>i{
+    color: #333333;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #333333;
+    background-color: #EEEEEE;
+}
+.icon {
+    margin-right: 1rem;
+    color: #AAAAAA;
+}
+td {
+    width: 20rem;
+}
+
+.fa-toggle-on {
+    color: green;
+}
+
+.fa-toggle-off {
+    color: #DB3444;
+}
+
+.userTable {
+    margin: auto;
+    width: 90%;
+}
+
+.tableLink{
+    color: #000;
+}
+
+.button {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.btn {
+    margin: 1rem auto;
+    width: 15rem;
+}
+
+#btnAlign{
+    width:100%;
+    text-align: center;
+}
+
+#delegateProfile, #medicProfile {
+    display: none;
+}
+
+#userMenu {
+    display: none;
+}
+/*Forms*/
+
+form{
+    margin-top:65px;
+}
+
+.text-success{
+    text-align: center;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#roundSelectMenu, #leagueSelectMenu {
+    width: 50%;
+    margin: 1rem auto;
+}
+.card{
+    margin: 20px auto;
+}
+.card-title{
+    text-align: center;
+    color: rgb(0,0,45);
+}
+#cardPrice{
+    text-align: center;
+    color: rgb(0,0,45);
+}
+#profile{
+    background-image: url(../img/car.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#userContainer{
+    background-color: rgb(0,0,45);
+}
+footer{
+    height: 50px;
+    background-color: rgb(0,0,45);
+}
+#rowList{
+    background-color: rgb(0,0,45);
+}
+.btn-warning{
+    width: 30%;
+    float: right;
+}
+.btn-danger{
+    width: 30%;
+    float: right;
+}
+.deleteTh{
+    text-align: right;
+}
+#manModel .btn-warning{
+    width: 40%;
+}
+#manModel .btn-danger{
+    width: 40%;
+}
+#manModel #lista{
+    margin-top: 20px;
+    color: white;
+}
+#manModel{
+    background-color: rgb(0,0,45);
+}
+#manModel label{
+    color: white;
+}
+#manuf{
+    background-color: rgb(0,0,45);
+}
+label{
+    color: white;
+}
+#carsDiv{
+     background-color: rgb(0,0,45);
+}
+.pickerDiv{
+    width: 60%;
+    margin: 0 auto;
+}
